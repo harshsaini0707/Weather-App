@@ -1,0 +1,132 @@
+/* Weatherapp.css */
+*{
+    font-family: "Kanit", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #252525d8;
+    overflow: hidden;
+}
+
+#container {
+    
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+    width: 400px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+   
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#condition-icon {
+    margin-left: 33px;
+    margin-top: 80px;
+    position: absolute;
+}
+
+#condition-icon img {
+    width: 120px;
+    height: 120px;
+}
+
+#temp {
+   margin-top: 40px;
+    font-size: 60px;
+    position: absolute;
+    margin-left: 210px;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 220px;
+   margin-left: 200px;
+   margin-top: 90px;
+    position: absolute;
+}
+#location{
+    position: absolute;
+     margin-top: 175px;
+    margin-left: 220px;
+    font-size: 1.8rem;
+    
+}
+#time{
+    position: absolute;
+    margin-top: 240px;
+   
+    margin-left: 5px;
+    font-size: 1.4rem;
+
+}
+#region{
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 220px;
+    width: 100%;
+    max-height: 50px;
+    font-size: 20px;
+}
+#country{
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 220px;
+    font-size: 20px;
+    
+}
+#condition{
+   
+    height: 150px;
+   width: 160px;
+    margin-top: 200px;
+    margin-left: 40px;
+    font-size: 1.4rem;
+}
+#made{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+@media (max-width:468px){
+    #container {
+        margin-top: 80px;
+    }
+}
+@media (min-width:469px) and (max-width:768px){
+    #container {
+        margin-top: 80px;
+    }
+}
+@media (min-width:769px) and (max-width:1023px){
+    #container {
+        margin-top: 80px;
+    }
+}
