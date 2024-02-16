@@ -14,7 +14,7 @@ const button = document.getElementById("search_button");
 
 async function getResult(searchLocation) {
     try {
-        const apiUrl = `http://api.weatherapi.com/v1/current.json?key=4312114a8eaf4fd288b165533240602&q=${searchLocation}&aqi=no`;
+        const apiUrl = `https://api.weatherapi.com/v1/current.json?key=4312114a8eaf4fd288b165533240602&q=${searchLocation}&aqi=no`;
         const response = await fetch(apiUrl);
         const apiData = await response.json();
         console.log(apiData);
